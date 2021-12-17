@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("./fonts/Century_Gothic/GOTHICB.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("./fonts/Century_Gothic/GOTHICBI.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "CenturySchoolbook";
+  src: url("./fonts/Century_Schoolbook/CENSCBK.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "CenturySchoolbook";
+  src: url("./fonts/Century_Schoolbook/SCHLBKI.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "CenturySchoolbookBold";
+  src: url("./fonts/Century_Schoolbook/SCHLBKB.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "CenturySchoolbookBold";
+  src: url("./fonts/Century_Schoolbook/SCHLBKBI.ttf");
+  font-style: italic;
+}
