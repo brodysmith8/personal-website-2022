@@ -44,13 +44,14 @@ h1 {
 }
 
 /* BEGIN LOGO */
-.container-1 {
+#container-1 {
   margin-left:auto;
   margin-right:auto;
   position: absolute;
   display: flex;
   width: 660px;
   height: 123px;
+  text-decoration: none;
 }
 
 .logo-orange-box {

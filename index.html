@@ -14,11 +14,11 @@
   <div class = "header">
 
     <!-- START LOGO -->
-    <div class = "container-1" href = "./index.html">
+    <a id = "container-1" href = "./index.html">
       <div class = "logo-orange-box">
           <p id = "logoText">Brody Smith</p>
       </div>
-    </div>
+    </a>
     <!-- END LOGO -->
 
     <!-- START NAVBAR -->
@@ -56,11 +56,11 @@
       <h1>What are you doing these days?</h1>
     </div>
     <div class = "text-wrapper-body-text">
-      <p>I serve as a co-lead of the electrical powertrain division at Western Formula Racing (abrv. WFR). The main goal of the electrical powertrain group this year is to implement a battery for the vehicle. The battery was designed entirely in-house by WFR alumni over the course of 2020 and early 2021 as the focus of their Capstone project.<br /><br />
+      <p>I serve as a co-lead of the electrical powertrain division at Western Formula Racing (<i>abrv.</i> WFR). The main goal of the electrical powertrain group this year is to implement a battery for the vehicle. The battery was designed entirely in-house by WFR alumni over the course of 2020 and early 2021 as the focus of their Capstone project.<br /><br />
 
-        As a software engineering student, the battery management system (abrv. BMS) naturally has been of particular interest to me this year. The integral purpose of a battery management system is to passively balance the charge and discharge of lithium-ion battery cells in charging or under load, respectively, to prevent cellular deterioration and the subsequent adverse effects resultant from a short circuit, or unilateral or partially-unilateral under- or over-voltage conditions. The BMS also collects voltage and temperature data, at a cellular level. Additionally, we are currently designing a Kalman filter-based state-of-charge estimation software component, the model of which will utilize each cell’s general characteristics, which will be derived from experimental methods. Leading that front is Maksim Faronov, respected colleague, and WFR’s resident, soon-to-be (!) Doctor of Philosophy in robotics and control systems. Keep up the good work Maksim!<br /><br />
+        As a software engineering student, the battery management system (<i>abrv.</i> BMS) naturally has been of particular interest to me this year. The integral purpose of a battery management system is to passively balance the charge and discharge of lithium-ion battery cells in charging or under load, respectively, to prevent cellular deterioration and the subsequent adverse effects resultant from a short circuit, or unilateral or partially-unilateral under- or over-voltage conditions. The BMS also collects voltage and temperature data, at a cellular level. Additionally, we are currently designing a Kalman filter-based state-of-charge estimation software component, the model of which will utilize each cell’s general characteristics, which will be derived from experimental methods. Leading that front is Maksim Faronov, respected colleague, and WFR’s resident, soon-to-be (!) Doctor of Philosophy in robotics and control systems. Keep up the good work Maksim!<br /><br />
         
-        The WFR BMS is designed in a distributed configuration, which is built upon the Analog Devices LTC 6820 and 6811 integrated circuits, acting as a Serial Data In/Out (abrv. SDIO) controller and an SDIO peripheral, respectively, in the operation architecture. See this link from the Open Source Hardware Association for more information regarding this Serial Peripheral Interface (abrv. SPI) configuration terminology.<br /><br />
+        The WFR BMS is designed in a distributed configuration, which is built upon the <b><i>Analog Devices LTC 6820</i></b> and <b><i>6811</i></b> integrated circuits, acting as a Serial Data In/Out (<i>abrv.</i> SDIO) controller and an SDIO peripheral, respectively, in the operation architecture. See this link from the Open Source Hardware Association for more information regarding this Serial Peripheral Interface (<i>abrv.</i> SPI) configuration terminology.<br /><br />
         
         The firmware for the microcontroller operating the BMS controller is written in C/C++. Communication within the battery is done with isoSPI (“iso” means “isolated”), an Analog Devices proprietary communication protocol derivative of SPI that is particularly useful for electrically-noisy applications, like those with high voltages. These environments can produce something called common-mode noise, which basically just interferes with digital signals. It is also beneficial in applications which require isolation for human safety in the case of a short circuit (technical note: isoSPI provides galvanic isolation via the implementation of transformers); both advantages are valuable in the application of electric vehicle racing. Data are then converted to CANBUS-form messages, and outputted from the battery to provide other subsystems throughout the vehicle with battery data.<br /><br />
         
@@ -94,10 +94,20 @@
       <p id = "reference-entry-index">[1]</p>
       <p id = "reference-entry">S. Nagaraj, “Request for issuance of a new Certificate of Conformity to include a running change of adding Model X Long Range variant under the Model X AWD Platform,” <i>United States Environmental Protection Agency,</i> 09-Sep-2021. [Online]. Available: https://iaspub.epa.gov/otaqpub/display_file.jsp?docid=53831&flag=1. [Accessed: 12-Dec-2021]. </p>
     </div>
+
   </div>
   <!-- END BODY -->
 
-  <!-- keep js script down here so the page loads before linking -->
+  <!-- START FOOTER -->
+  <div class = "footer">
+      
+
+  </div>
+  <!-- END FOOTER-->
+
+
+
+  <!-- keep js reference down here so the page loads before linking -->
   <script src="assets/main.js" defer></script>
 </body>
 
